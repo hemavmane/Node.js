@@ -1,0 +1,53 @@
+// node js is not a programming language
+// this is server invironment
+// it will run js on server side and bcs of this reason js will become serverside programing language
+//uses////////////////////
+
+//for api banana 
+//server bannana
+// we can connect database with mobile app and web apllication
+// 'http' this is http is the one of the module of node.js
+// require('http') for request  i will use require
+// for import use require
+
+// require('http')
+// now illl store this object in one variable
+
+// const http = require('http')
+
+// http.createServer((req,res)=>{console.log("hii")})
+//createServer() creates the server and its consist one event listener
+// which is in the form of callback fucntion  or request handler
+// it will pass two things one 1} request 2} response
+
+// now save this for reference
+
+// require('http')
+// console.log("kiran")
+// npm i nodemon used package for reload on change the locolhost the
+// ctrl " c "for end the terminal 
+
+
+// difference bet js and node.js
+// nodejs////////////
+//  node js will connect with data base 
+//  node.js is free and open source
+// node js use v8 chrome engine
+//js /////////////////
+//  js will not connect with data base 
+// bcs js will run on browser
+//  code and syntax similar but not exactly same
+
+
+
+//// core module in node.js
+// in every programming language there  present some files already that is called as core module
+// like in console.log()  console is the one core module
+// buffer,fs,http
+// global module ex console
+//fs is non global module bcs we have to impport ex present in app.js
+
+//// chunk //////////
+// chunk is like small small packages of data
+// when i  shared one big message node.js will make its small small pieces and share ti server this smalll pieces
+// ntg but chunk
